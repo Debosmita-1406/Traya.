@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #00FA9A;
+  }
+  
+  .navbar-brand {
+    display: inline-block;
+    padding-bottom: 1px; /* Adjust this value to control the distance between the brand and the line */
+  }
+  
+  .navbar-brand::p {
+    position: absolute;
+    height: 2px; /* Adjust this value to control the thickness of the line */
+    background-color: rgb(241, 236, 236) /* Adjust this value to change the color of the line */
+  }
+  .carousel {
+    position: relative;
+    /* Add styling as needed */
+  }
+  
+  .carousel-inner {
+    display: flex;
+    /* Add styling as needed */
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    /* Add styling as needed */
+  }
+  
+  .carousel-indicators {
+    position: absolute;
+    /* Add styling as needed */
+  }
